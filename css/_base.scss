@@ -103,6 +103,9 @@ input {
 input[type=submit] {
     border: 1px solid $brand-secondary;
 }
+input[type=checkbox], input[type=radio]  {
+    width: auto;
+}
 input[type=text],
 input[type=email],
 input[type=tel],
